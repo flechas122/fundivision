@@ -1,0 +1,17 @@
+# Entorno y archivos generados
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+modelos/
+
+# Dataset de Kaggle (se descarga aparte, ver README)
+data/
+*.zip
+
+# Material del curso (no se publica)
+Entrega 3 vision.pdf
+Extraccion HOG_LPB_GLM.py
+comparacion de clasificadores_1.py
+
+# Documentos de entrega personales
+entrega/
