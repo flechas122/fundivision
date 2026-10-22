@@ -1,7 +1,7 @@
 # FundiVision — Inspección visual automática de piezas fundidas
 
 **Start-up de Visión Artificial B2B** · Entrega 3 · Visión Artificial · ITM 2026
-**Integrante:** [@flechas122](https://github.com/flechas122)
+**Integrante:** Sebastian Lopez ([@flechas122](https://github.com/flechas122))
 
 FundiVision clasifica impulsores de bombas sumergibles como **OK** o **DEFECTO** a partir de una foto cenital. Usa solo **visión artificial clásica**, sin Deep Learning y sin GPU.
 
