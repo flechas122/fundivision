@@ -70,10 +70,21 @@ Foto 300×300 (gris) → 128×128 → HOG + LBP + GLCM → fusión → Z-score �
    jupyter notebook FundiVision_inspeccion_piezas.ipynb
    ```
 
+## Demo en vivo
+
+Al ejecutar el notebook se guarda el modelo entrenado en `modelos/fundivision.joblib`. Con ese archivo se puede inspeccionar pieza por pieza:
+
+```bash
+python demo_fundivision.py
+```
+
+La demo muestra fotos del conjunto `test` con el veredicto **OK / DEFECTO**, el tiempo de cada pieza y el conteo de aciertos. Use **ESPACIO** para pasar a la siguiente pieza y **ESC** para salir. También acepta una foto (`python demo_fundivision.py foto.jpeg`) o una carpeta. En Windows basta con doble clic en `ABRIR_DEMO.bat`, o con arrastrar una foto encima.
+
 ## Estructura
 
 ```
 FundiVision_inspeccion_piezas.ipynb   notebook principal (ejecutado, con resultados)
+demo_fundivision.py, ABRIR_DEMO.bat   demo de inspección en vivo con el modelo guardado
 figuras/                              gráficas generadas por el notebook
 requirements.txt                      dependencias
 data/        (no se sube)             dataset de Kaggle
